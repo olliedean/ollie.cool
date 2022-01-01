@@ -16,13 +16,13 @@ export default function Home() {
               a freelance fullstack developer based in&nbsp;
               <a href="https://www.google.com/maps/place/Lincoln/@53.2182753,-0.6255359,12z/data=!3m1!4b1!4m5!3m4!1s0x48780ccb711104fb:0x36603dcfe8c7ddc7!8m2!3d53.230688!4d-0.540579">lincoln, uk.</a>
               <br />
-              <SocialBadge link="https://github.com/olliedean">
+              <SocialBadge link="https://github.com/olliedean" hoverColor="text-gray-500" className="hover:text-gray-700">
                 <FontAwesomeIcon icon={faGithub} />
               </SocialBadge>
-              <SocialBadge link="https://instagram.com/olliedeannn">
+              <SocialBadge link="https://instagram.com/olliedeannn" hoverColor="text-red-400">
                 <FontAwesomeIcon icon={faInstagram} />
               </SocialBadge>
-              <SocialBadge link="https://twitter.com/Zenternal">
+              <SocialBadge link="https://twitter.com/Zenternal" hoverColor="text-sky-500">
                 <FontAwesomeIcon icon={faTwitter} />
               </SocialBadge>
             </p>
@@ -32,6 +32,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="hover:text-gray-500 hover:text-red-400 hover:text-sky-500" aria-label="don't question it"></div>
     </div>
   )
 }

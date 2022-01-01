@@ -7,7 +7,7 @@ export default function SocialBadge(props) {
 			href={props.link}
 			target="_blank"
 			rel="noopener noreferrer"
-			className="text-xl pr-2"
+			className={`text-2xl pr-2 ${"hover:" + props.hoverColor} transition-all`}
 		>
 			{props.children}
 		</a>
