@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className="w-full">
       <div className="h-full flex items-center">
-        <div className="flex flex-row items-center w-full">
-          <div className="flex-auto">
+        <div className="sm:flex sm:flex-row items-center w-full">
+          <div className="flex-auto text-center sm:text-left">
             <span className="text-2xl font-bold">👋 hiya, i'm ollie</span>
             <p>
               a freelance fullstack developer based in&nbsp;
@@ -27,7 +27,7 @@ export default function Home() {
               </SocialBadge>
             </p>
           </div>
-          <div className="flex-auto">
+          <div className="flex-auto mt-4 sm:mt-0">
             <SpotifyWidget />
           </div>
         </div>
