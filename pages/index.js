@@ -22,7 +22,7 @@ export default function Home() {
               <SocialBadge link="https://instagram.com/olliedeannn" hoverColor="text-red-400">
                 <FontAwesomeIcon icon={faInstagram} />
               </SocialBadge>
-              <SocialBadge link="https://twitter.com/Zenternal" hoverColor="text-sky-500">
+              <SocialBadge link="https://twitter.com/olliejdean" hoverColor="text-sky-500">
                 <FontAwesomeIcon icon={faTwitter} />
               </SocialBadge>
             </p>
